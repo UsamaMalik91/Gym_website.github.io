@@ -1,0 +1,10 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Signika', sans-serif;
+    background-image: url(a8.jpg);
+    background-size: cover;
+    opacity:78%;
+}

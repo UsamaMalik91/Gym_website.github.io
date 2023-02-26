@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Malik's Fitness</title>
+    </head>
+    <link rel="stylesheet"  href="index.css">
+    <script src="https://kit.fontawesome.com/f0d9fdea83.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .left{
+            
+            font-size: large;
+            color:azure;
+            position:absolute;
+            left:60px;
+            top:15px;
+        }
+        .left img{
+            width:86px;
+            filter:invert(99%);
+        }
+        .left div{
+            text-align: center;
+            font-size: 15px;
+            line-height: 10%;
+        }
+        .left div:hover{
+            color:grey;
+        }
+        .mid{
+            font-size: large;
+            color:azure;
+            display: block;
+            width:47%;
+            margin:35px auto;
+        }
+        .right{
+            font-size: large;
+            display:inline-block;
+            position:absolute;
+            right:2px;
+            top:35px;
+        }
+        .btn{
+            margin:0px 25px;
+            color:white;
+            padding:4px 11px;
+            background-color: rgb(0, 0, 0);
+            font-size: 18px;
+            border-color:rgb(22, 21, 21) ;
+            font-family: 'Signika', sans-serif;
+            border-radius: 8px;
+            cursor:pointer;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+
+        }
+        .navbar li a{
+            color:white;
+            font-size: 18px;
+            font-family: 'Signika', sans-serif;
+            text-decoration: none;
+            padding :32px;
+            text-emphasis: 34px;
+        }
+        .navbar li a:hover , .navbar li a.active{
+            color:#b7b7b7;
+            text-decoration: underline;
+        }
+        .container{
+            border:2px solid white;
+            margin:80px 90px;
+            padding:30px;
+            border-radius: 10px;
+            color: azure;
+            width:18%;
+        }
+        .Group_form input{
+            margin:6px;
+            text-align: center;
+            width:255px;
+            display: block;
+            margin:20px auto;
+            border: 2px solid rgb(255, 254, 254);
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: 'Signika', sans-serif;
+        }
+        .container h1{
+            text-align: center;
+            font-size: 20px;
+            margin-top:-5px;
+        }
+        .container button{
+            display: block;
+            width:100%;
+            margin: 20px auto;
+            background-color: rgb(12, 12, 12);
+            color:rgb(255, 255, 255);
+            
+        }
+        
+    </style>
+    <body>
+        <header class="header">
+        <div class="left">
+            <img src="as.jpg" alt="Gym_logo">
+            <div>Malik's Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>The Best Gym In Islamabad Join Us Now!</h1>
+    <form>
+        <div class="Group_form">
+        <input type="text" name="" placeholder="Your Name e.g Usama Malik">
+        </div>
+    </form>
+    <form>
+        <div class="Group_form">
+        <input type="text" name="" placeholder="Your Email e.g usgr43@gmail.com">
+        </div>
+    </form>
+    <form>
+        <div class="Group_form">
+        <input type="number" name="" placeholder="Contact e.g +923055703348">
+        </div>
+    </form>
+    <form>
+        <div class="Group_form">
+        <input type="text" name="" placeholder="Your Age & Gender e.g 32 M">
+        </div>
+    </form>
+    
+    <button class="btn">Submit</button>
+    </body>
+    </div>
+</html>
